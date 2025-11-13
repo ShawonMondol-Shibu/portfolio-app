@@ -12,11 +12,11 @@ export default function Index() {
           Available for new projects
         </Text>
         <Image
-          source={require("../../assets/images/icon.png")}
+          source={require("../../assets/images/shawon.webp")}
           alt="hero image"
-          width={100}
-          height={100}
-          style={tw`w-40 h-40 m-auto rounded-full shadow-lg border-2 border p-2 shadow-lg shadow-yellow-500`}
+          width={1000}
+          height={1000}
+          style={tw`w-40 h-40 m-auto rounded-full shadow-lg border-2 border p-2 bg-yellow-500/80 shadow-lg shadow-yellow-500`}
         />
       </View>
 
@@ -24,7 +24,11 @@ export default function Index() {
         Hello, I&apos;m Shawon Mondol Shibu
       </Text>
 
-      <Text style={tw`text-white text-lg`}>Frontend developer passionate about creating beautiful, functional, and user-friendly web applications using the latest technologies and best practices.</Text>
+      <Text style={tw`text-white text-lg`}>
+        Frontend developer passionate about creating beautiful, functional, and
+        user-friendly web applications using the latest technologies and best
+        practices.
+      </Text>
     </SafeAreaView>
   );
 }
